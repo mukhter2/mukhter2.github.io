@@ -3,10 +3,19 @@ body{
     max-width: 1920px;
     height: auto;
     background: #FFFFFF;
+    margin: 0;
+    padding:10px 0;
 }
 .navbar{
     padding-top: 12px;
     width: 100%;
     max-height: 174px;
     background: red;
+}
+.searcher{
+    height: 54px;
+    max-width: 702px;
+    width: auto;
+    border-radius: 3px;
+    background: #F3f3f3;
 }
