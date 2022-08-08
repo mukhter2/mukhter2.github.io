@@ -1,18 +1,14 @@
 body{
-    position: relative;
-    max-width: 1920px;
-    height: auto;
+   
     background: #FFFFFF;
     margin: 0;
-    padding:10px 0;
+    padding:0;
 }
 .banner{
-    background-image: url("assets/images/banner.png"); /* The image used */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    height: 1900px;
-    width: fit-content;
+    background-image: url("../images/banner.png") ;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 .searcher{
     height: 54px;
@@ -20,6 +16,10 @@ body{
     width: auto;
     border-radius: 3px;
     background: #F3f3f3;
+}
+p{
+    padding: 0;
+    margin: 0;
 }
 .font-1{
     font-family: 'General Sans';
@@ -70,4 +70,126 @@ color: #4F4F4F;
     background: #F38125;
     border-radius: 5px;
     z-index: 10;
+}
+.category-button{
+    width: 229px;
+    height: 46px;
+
+    background: #F38125;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center ;
+}
+.list-1{
+    list-style-type: none;
+}
+.nav-link{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F !important;
+}
+.fish-banner{
+    background-image: url("../images/fish-banner.png") ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 458px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 25px;
+}
+.lemon-banner{
+    background-image: url("../images/lemon-banner.png") ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 458px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 25px;
+}
+.font-5{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #F2F2F2;
+}
+
+.font-6{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
+.shop-button{
+    width: 139px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.font-7{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.font-8{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;    
+    color: #F2F2F2;
+}
+.font-9{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #E0E0E0;
+
+}
+.font-10{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #333333;
+}
+.font-11{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #828282;
+}
+.font-12{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #828282;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.category-bar{
+    width: 179px;
+    height: 242px;
+    background: #F7F7F7;
+    border-radius: 10px;
 }
