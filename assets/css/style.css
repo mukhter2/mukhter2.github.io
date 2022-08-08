@@ -6,11 +6,13 @@ body{
     margin: 0;
     padding:10px 0;
 }
-.navbar{
-    padding-top: 12px;
-    width: 100%;
-    max-height: 174px;
-    background: red;
+.banner{
+    background-image: url("assets/images/banner.png"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 1900px;
+    width: fit-content;
 }
 .searcher{
     height: 54px;
@@ -18,4 +20,54 @@ body{
     width: auto;
     border-radius: 3px;
     background: #F3f3f3;
+}
+.font-1{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4F4F4F;
+}
+.font-2{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+.font-3{
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+.font-4{    
+font-family: 'General Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #4F4F4F;
+}
+.icon-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 41px;
+    height: 42px;
+    align-items: center;
+}
+.human{
+    position:absolute;
+    width: 29px;
+    height: 29px;
+    right: -10px;
+    top: -15px;
+    background: #F38125;
+    border-radius: 5px;
+    z-index: 10;
 }
