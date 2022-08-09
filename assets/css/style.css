@@ -480,3 +480,17 @@ vertical-align: middle;
     display: flex;
     justify-content: space-between;
 }
+
+.mockup-bar{
+    max-height: 280px;
+    width: auto;
+    max-width: 100%;
+
+}
+.mockup-bar img{
+    border-radius: 10px;
+    max-width: 528px ;
+    max-height: 280px;
+    width: 100%;
+    height: auto;
+}
