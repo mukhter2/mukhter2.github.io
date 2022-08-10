@@ -13,132 +13,168 @@
     <title>Pescado|Home</title>
 </head>
 <body>
-    <div class="banner">
-        <div class="container mt-3">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="assets/images/logo1.png" alt="logo"/>
-                </div>
-                <div class="col-md-5">
-                    <div class="searcher">
-                         <p>hekki</p>
+    <div class="banner pb-5">
+        <div class="header pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"   id="smallScreenMid-4">
+                        <img src="assets/images/logo1.png" alt="logo"/>
                     </div>
-                </div>
-                <div class="col-md-2">
-                    <p class="font-1">1800-4190-786</p>
-                    <p class="font-2">Support 24/7</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="icon-button">
-                                <img src="assets/images/human.png" style="z-index: 2;" alt="profile"/>
-                                
+                    <div class="col-lg-5 col-md-12 mt-4">
+                        <div class="searcher">
+                             <div id="select" class="text-center">
+                                <p id="selectText" class="mt-2">All Categories</p>
+                                <img style="margin-top:-0px" src="assets/images/down.png" />
+                                <ul id = "list">
+                                    <li class="options">BANGALORE</li>
+                                    <li class="options">MUMBAI</li>
+                                    <li class="options">DELHI</li>
+                                </ul>
                             </div>
-                            
+                            <input type="text" placeholder="Search for any delicious product" />
                         </div>
-                        <div class="col-md-2">
-                            <div class="icon-button">
-                                <img src="assets/images/heart.png" alt="notification"/>
-                                <div class="human">
-                                    <p class="text-center font-4 mt-1" style="color: #FFFDFD;">12</p>
+                    </div>
+                    <div class="col-lg-2 col-md-12 mt-4" id="num-support">
+                        <p class="font-1">1800-4190-786</p>
+                        <p class="font-2">Support 24/7</p>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-4">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12" >
+                                <div class="icon-button">
+                                    <img src="assets/images/human.png" style="z-index: 2;" width="23" height="27" alt="profile"/>
+                                    
                                 </div>
+                                
                             </div>
-                            
-                        </div>
-                        <div class="col-md-2">
-                            <div class="icon-button">
-                                <img src="assets/images/cart.png" alt="cart"/>
-                                <div class="human">
-                                    <p class="text-center font-4 mt-1" style="color: #FFFDFD;">12</p>
+                            <div class="col-lg-3 col-md-12">
+                                <div class="icon-button">
+                                    <img src="assets/images/heart.png" width="26" height="23" alt="notification"/>
+                                    <div class="human">
+                                        <p class="text-center font-4 mt-1" style="color: #FFFDFD;">12</p>
+                                    </div>
                                 </div>
+                                
                             </div>
-
+                            <div class="col-lg-3 col-md-12">
+                                <div class="icon-button">
+                                    <img src="assets/images/cart.png"  width="28" height="27" alt="cart"/>
+                                    <div class="human">
+                                        <p class="text-center font-4 mt-1" style="color: #FFFDFD;">12</p>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="col-lg-3 col-md-12" id="cart-value">
+                                <p class="font-4">Your Cart</p>
+                                <p class="font-3">$2557.89</p>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <p class="font-4">Your Cart</p>
-                            <p class="font-3">$2557.89</p>
-                        </div>
-                    </div>
-                </div>  
-                
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-12">
-                    <div class="category-button text-center">
-                        <img src="assets/images/button_sign.png" height="18" width="12"/>
-                        <p class=" font-4" style="color: #FFF;">Shop By Category</p>
-                    </div>
+                    </div>  
+                    
                 </div>
+                <div class="row mt-2 ">
+                    <div class="col-lg-3 col-md-12">
+                        <div class="category-button text-center row"  id="smallScreenMid-1">
+                            <div class="col-3 pt-1">                            
+                                <img src="assets/images/button_sign.png" class="" height="12" width="19"/>
+                            </div>
+                            <div class="col-9 pt-2">
+                                <p class=" font-4" style="color: #FFF;">Shop By Category</p>
 
-                <div class="col-md-8  col-sm-12">
-                    <div class="navbar navbar-expand-lg">
-                        <ul class="navbar-nav list-1">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img style="padding-right: 5px;" src="assets/images/bold.png"/>Deals Today
-                                  </a>
-                                
-                                
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-9  col-md-12">
+                        <div class="navbar navbar-expand-lg navbar-light">
                             
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img style="padding-right: 5px;" src="assets/images/tag.png"/>
-                                 Special Prices
-                                  </a>
-                                
-                                
-                                </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Fresh <img src="assets/images/down.png"/>
-                                  </a>
-                                
-                                </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Frozen <img src="assets/images/down.png"/>
-                                  </a>
-                                  </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Demos <img src="assets/images/down.png"/>
-                                  </a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Shop <img src="assets/images/down.png"/>
-                                  </a>
+                            <button class="navbar-toggler"   id="smallScreenMid-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#toggleMobileMenu"
+                            aria-controls="toggleMobileMenu"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
 
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="toggleMobileMenu" >
+                            <ul class="navbar-nav list-1"   id="smallScreenMid-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img style="padding-right: 5px;" src="assets/images/bold.png"/>Deals Today
+                                      </a>
+                                    
+                                    
+                                
                                 </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Blog <img src="assets/images/down.png"/>
-                                  </a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img style="padding-right: 5px;" src="assets/images/tag.png"/>
+                                     Special Prices
+                                      </a>
+                                    
+                                    
+                                    </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Fresh <img src="assets/images/down.png"/>
+                                      </a>
+                                    
+                                    </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Frozen <img src="assets/images/down.png"/>
+                                      </a>
+                                      </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Demos <img src="assets/images/down.png"/>
+                                      </a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Shop <img src="assets/images/down.png"/>
+                                      </a>
+    
+                                    </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Blog <img src="assets/images/down.png"/>
+                                      </a>
+    
+                                    </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Pages <img src="assets/images/down.png"/>
+                                      </a>
+                                      </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
+                                        Ready To Cook <img src="assets/images/down.png"/>
+                                      </a>
+                                     </li>
+                                 
+                            </ul>
+                        </div>
 
-                                </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Pages <img src="assets/images/down.png"/>
-                                  </a>
-                                  </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 5px;">
-                                    Ready To Cook <img src="assets/images/down.png"/>
-                                  </a>
-                                 </li>
-                             
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+
+
+        </div>
+
+        <div class="container">
+
+            <div class="row mt-4">
                 <div class="col-md-8 col-sm-12">
                     <div class="fish-banner">
                         <div class="row">
                             <div class="col-md-6">
-                                <p class="font-5 pt-5 ps-3">Cheers for the boys of the blue</p>
-                                <p class="font-6 ps-3">Enjoy unlimited free delivery & perks crafted for true meat lovers</p>
+                                <p class="font-5 pt-5 ps-4">Cheers for the boys of the blue</p>
+                                <p class="font-6 ps-4">Enjoy unlimited free delivery & perks crafted for true meat lovers</p>
                                 <div class="shop-button ms-4">
                                     <p class="font-7 text-center pt-2">Shop Now</p>
                                 </div>
@@ -159,295 +195,308 @@
                     </div>
                 </div>
             </div>
-            <div class="browser-category">
-                <div class="category-header">
-                    
-                        <p class="font-10">Browse by Category <span class="font-11 ps-5">All Category > </span></p>
-                        <div class="nav-button">
-                            <div class="nav-category"><p class="text-center"><</p></div>
-                            <div class="nav-category"><p class="text-center">></p></div>
-                        </div>
-                </div>
-            <div class="category">
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/shrimp.png"/>
-                        <p class="font-12">Frozen Seafoods</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/seafood.png"/>
-                        <p class="font-12">Raw Foods</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/seafood-paella.png"/>
-                        <p class="font-12">Cooked</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/kakra-hand.png"/>
-                        <p class="font-12">Frozen Seafoods</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/lobster.png"/>
-                        <p class="font-12">Raw Foods</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/octopus.png"/>
-                        <p class="font-12">Cooked</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/seafood-paella.png"/>
-                        <p class="font-12">Frozen Seafoods</p>
-                    </div>
-                </div>
-
-                <div class="category-bar">
-                    <div class="text-center pt-5">
-                        <img src="assets/images/kakra-hand.png"/>
-                        <p class="font-12">Raw Foods</p>
-                    </div>
-                </div>
-            </div>
             </div>
 
 
-            <div class="browser-category">
-                <div class="category-header">
-                    
-                        <p class="font-10">Featured Brands <span class="font-11 ps-5">All Offers > </span></p>
-                        <div class="nav-button">
-                            <div class="nav-category"><p class="text-center"><</p></div>
-                            <div class="nav-category"><p class="text-center">></p></div>
-                        </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="img-fluid" src="assets/images/fish-pic-1.jpg" />
-                        <p class="font-13">Freshwater Fish</p>
-                        <p class="font-14">Foli - Whole, Cleaned</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img  class="img-fluid" src="assets/images/fish-pic-2.png"/>
-                        <p class="font-13">Freshwater Fish</p>
-                        <p class="font-14">Roopchand (Chanduva) From $30.05</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img  class="img-fluid" src="assets/images/fish-pic-3.png"/>
-                        <p class="font-13">Freshwater Fish</p>
-                        <p class="font-14">Roopchand (Chanduva) From $30.05</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img  class="img-fluid" src="assets/images/fish-pic-4.png"/>
-                        <p class="font-13 ">Freshwater Fish</p>
-                        <p class="font-14">Roopchand (Chanduva) From $30.05</p>
-                    </div>
-                </div>
-            </div>
-<!-- top saver today-->
-            <div class="browser-category">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="category-header">
-                    
-                            <p class="font-10">Top Saver Today <span class="font-11 ps-5">All Offers > </span></p>
-                            <div class="expire-countdown">
-                                
-                                <img src="assets/images/countdown-icon.png"/ width="18" height="18" style="margin-top: 8px;"> <p  class="font-15"  style="margin-top: 7px;">Expires in:&nbsp;&nbsp;05 : 18 : 45</p>
-                            </div>
+        <div class="category-back pt-3 pb-3 mt-4">
+            <div class="container">
+                <!-- browser by category-->
+                <div class="browser-category">
+                    <div class="category-header">
+                        
+                            <p class="font-10">Browse by Category <span class="font-11 ps-5" id="lineBreaker1">All Category > </span></p>
                             <div class="nav-button">
                                 <div class="nav-category"><p class="text-center"><</p></div>
                                 <div class="nav-category"><p class="text-center">></p></div>
                             </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="top-saver-bar">
-                                <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
-
-                                <img src="assets/images/top-saver-img1.png" class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">24 pieces/box</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
-                                <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
-                                        </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
-                                    </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
-                                </div>
-                                
-
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 ">
-
-                            <div class="top-saver-bar">
-                                <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
-
-                                <img src="assets/images/top-saver-img2.png" class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">550g</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
-                                <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
-                                        </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
-                                    </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
-                                </div>
-                                
-
-                            </div>
-
-
-
-
-                           
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="top-saver-bar">
-                                <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
-
-
-                                <img class="img-fluid" src="assets/images/top-saver-img3.png" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">550g</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
-                                <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
-                                        </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
-                                    </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-
-                            <div class="top-saver-bar">
-                                <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
-
-                                <img src="assets/images/top-saver-img4.png"  class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">550g</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
-                                <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
-                                        </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
-                                    </div>
-                                    <div class="register-now" style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                <div class="category">
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/shrimp.png"/>
+                            <p class="font-12">Frozen Seafoods</p>
                         </div>
                     </div>
-
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="register">
-                            <p class="font-16">30% OFF</p>
-                            <p class="font-17">For new member sign up at the first time</p>
-                            <input type="email" placeholder="yourdomain@gmail.com"  id="mailing">
-                            <input type="password" placeholder="Password" id="password" >
-                            <input type="email" placeholder="Re-type Password"  id="retypepass">
-                            <div class="register-now">
-                                <p class="font-15 pt-2">Register Now</p>
-                            </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/seafood.png"/>
+                            <p class="font-12">Raw Foods</p>
                         </div>
-
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/seafood-paella.png"/>
+                            <p class="font-12">Cooked</p>
+                        </div>
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/kakra-hand.png"/>
+                            <p class="font-12">Frozen Seafoods</p>
+                        </div>
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/lobster.png"/>
+                            <p class="font-12">Raw Foods</p>
+                        </div>
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/octopus.png"/>
+                            <p class="font-12">Cooked</p>
+                        </div>
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/seafood-paella.png"/>
+                            <p class="font-12">Frozen Seafoods</p>
+                        </div>
+                    </div>
+    
+                    <div class="category-bar">
+                        <div class="text-center pt-5">
+                            <img src="assets/images/kakra-hand.png"/>
+                            <p class="font-12">Raw Foods</p>
+                        </div>
                     </div>
                 </div>
-
+                </div>
+    
+    <!-- feature brand-->
+                <div class="browser-category">
+                    <div class="category-header">
+                        
+                            <p class="font-10">Featured Brands <span class="font-11 ps-5"  id="lineBreaker2">All Offers > </span></p>
+                            <div class="nav-button">
+                                <div class="nav-category"><p class="text-center"><</p></div>
+                                <div class="nav-category"><p class="text-center">></p></div>
+                            </div>
+                    </div>
+                    <div class="row" id="featureItemSmallScreen">
+                        <div class="col-lg-3 col-md-12">
+                            <img class="img-fluid" src="assets/images/fish-pic-1.jpg" />
+                            <p class="font-13">Freshwater Fish</p>
+                            <p class="font-14">Foli - Whole, Cleaned</p>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <img  class="img-fluid" src="assets/images/fish-pic-2.png"/>
+                            <p class="font-13">Freshwater Fish</p>
+                            <p class="font-14">Roopchand (Chanduva) From $30.05</p>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <img  class="img-fluid" src="assets/images/fish-pic-3.png"/>
+                            <p class="font-13">Freshwater Fish</p>
+                            <p class="font-14">Roopchand (Chanduva) From $30.05</p>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <img  class="img-fluid" src="assets/images/fish-pic-4.png"/>
+                            <p class="font-13 ">Freshwater Fish</p>
+                            <p class="font-14">Roopchand (Chanduva) From $30.05</p>
+                        </div>
+                    </div>
+                </div>
+    <!-- top saver today-->
+                <div class="browser-category">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-9">
+                            <div class="category-header">
+                        
+                                <p class="font-10">Top Saver Today <span class="font-11 ps-5"  id="lineBreaker3">All Offers > </span></p>
+                                <div class="expire-countdown">
+                                    
+                                    <img src="assets/images/countdown-icon.png"/ width="18" height="18" style="margin-top: 8px;"> <p  class="font-15"  style="margin-top: 7px;">Expires in:&nbsp;&nbsp;05 : 18 : 45</p>
+                                </div>
+                                <div class="nav-button">
+                                    <div class="nav-category"><p class="text-center"><</p></div>
+                                    <div class="nav-category"><p class="text-center">></p></div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                <div class="top-saver-bar">
+                                    <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
+    
+                                    <img src="assets/images/top-saver-img1.png" class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">24 pieces/box</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
+                                    <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        </div>
+                                        <div class="register-now"  style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
+                                    </div>
+                                    
+    
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-12 ">
+    
+                                <div class="top-saver-bar">
+                                    <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
+    
+                                    <img src="assets/images/top-saver-img2.png" class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">550g</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
+                                    <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        </div>
+                                        <div class="register-now"   style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
+                                    </div>
+                                    
+    
+                                </div>
+    
+    
+    
+    
+                               
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                <div class="top-saver-bar">
+                                    <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
+    
+    
+                                    <img class="img-fluid" src="assets/images/top-saver-img3.png" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">550g</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
+                                    <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        </div>
+                                        <div class="register-now"  style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-12">
+    
+                                <div class="top-saver-bar">
+                                    <img class="fav-item" src="assets/images/favorite-icon.png" width="21" height="18"/>
+    
+                                    <img src="assets/images/top-saver-img4.png"  class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">550g</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <img  style="margin-top: -20px;" src="assets/images/bar.png" width="70%"/>
+                                    <p class="font-7" style="margin-top: -10px;">Sold: 10/40</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        </div>
+                                        <div class="register-now" style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        </div>
+                        <div class="col-xl-3 col-md-12">
+                            <div class="register">
+                                <p class="font-16">30% OFF</p>
+                                <p class="font-17">For new member sign up at the first time</p>
+                                <input type="email" placeholder="yourdomain@gmail.com"  id="mailing">
+                                <input type="password" placeholder="Password" id="password" >
+                                <input type="email" placeholder="Re-type Password"  id="retypepass">
+                                <div class="register-now">
+                                    <p class="font-15 pt-2">Register Now</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
             </div>
+        </div>
+        
 
+
+
+        <div class="container">
 <!-- best seller -->
+
             <div class="browser-category">
                 
                         <div class="category-header">
@@ -468,182 +517,186 @@
                                 <div class="nav-category"><p class="text-center">></p></div>
                             </div>
                     </div>
-                    <div class="row arranger">
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="best-seller-bar">
-
-                                <img src="assets/images/best-seller-img1.png" class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">5kg</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
+                    <div class="category-back2">
+                        <div class="row arranger">
+                            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12">
+                                <div class="best-seller-bar">
+    
+                                    <img src="assets/images/best-seller-img1.png" class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">5kg</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
                                         </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        <div class="register-now"  style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
                                     </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
+                                    
+    
                                 </div>
-                                
-
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12 ">
-
-                            <div class="best-seller-bar">
-
-                                <img src="assets/images/best-seller-img2.png" class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">5kg</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
+                            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12 ">
+    
+                                <div class="best-seller-bar">
+    
+                                    <img src="assets/images/best-seller-img2.png" class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">5kg</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
                                         </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        <div class="register-now"  style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
                                     </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
+                                    
+    
                                 </div>
-                                
-
+    
+    
+    
+    
+                               
                             </div>
-
-
-
-
-                           
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="best-seller-bar">
-
-
-                                <img class="img-fluid" src="assets/images/best-seller-img3.png" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">5kg</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
+                            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12">
+                                <div class="best-seller-bar">
+    
+    
+                                    <img class="img-fluid" src="assets/images/best-seller-img3.png" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">5kg</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
                                         </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        <div class="register-now"  style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
                                     </div>
-                                    <div class="register-now"  style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
+    
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-
-                            <div class="best-seller-bar">
-
-                                <img src="assets/images/best-seller-img4.png"  class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">5kg</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
+                            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12">
+    
+                                <div class="best-seller-bar">
+    
+                                    <img src="assets/images/best-seller-img4.png"  class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">5kg</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
                                         </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        <div class="register-now" style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
                                     </div>
-                                    <div class="register-now" style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
+    
                                 </div>
-
                             </div>
-                        </div>
-
-
-
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-
-                            <div class="best-seller-bar">
-
-                                <img src="assets/images/best-seller-img5.png"  class="img-fluid" />
-                                <p class="font-18">Brand Name</p>
-                                <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
-                                <div class="ratings"  style="margin-top: -10px;">
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
-                                    <p class="font-19 ms-2" >(12)</p>
-                                </div> 
-                                <p class="font-20"   style="margin-top: -10px;">5kg</p>
-                                <p  class="font-21" style="margin-top: -10px;">$50.50</p>
-                                <div class="hoveringItem">
-                                    <div class="order-counter">
-                                        <div class="number">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1"/>
-                                            <span class="plus">+</span>
+    
+    
+    
+                            <div class="col-xl-2 col-lg-6 col-md-12 col-sm-12">
+    
+                                <div class="best-seller-bar">
+    
+                                    <img src="assets/images/best-seller-img5.png"  class="img-fluid" />
+                                    <p class="font-18">Brand Name</p>
+                                    <p class="font-18" style="font-weight: 400;margin-top: -10px;">Emperor (Erimeenu) Medium</p>
+                                    <div class="ratings"  style="margin-top: -10px;">
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png"  style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-on.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <img src="assets/images/star-off.png" style="width: 10px;height: 9px; padding: 0;"/>
+                                        <p class="font-19 ms-2" >(12)</p>
+                                    </div> 
+                                    <p class="font-20"   style="margin-top: -10px;">5kg</p>
+                                    <p  class="font-21" style="margin-top: -10px;">$50.50</p>
+                                    <div class="hoveringItem">
+                                        <div class="order-counter">
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                            <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
                                         </div>
-                                        <p class="font-20"  style="margin: 5px;">Total: <span class="font-22">$550.50</span></p>
+                                        <div class="register-now" style="margin:30px 0; width:70%">
+                                            <p class="font-15 pt-2">Add To Cart</p>
+                                        </div>
                                     </div>
-                                    <div class="register-now" style="margin:30px 0; width:70%">
-                                        <p class="font-15 pt-2">Add To Cart</p>
-                                    </div>
+    
                                 </div>
-
                             </div>
                         </div>
                     </div>
+
+                    
 
             </div>
             <div class="browser-category">
@@ -1058,14 +1111,215 @@
 
             </div>
 
+
+            <div class="browser-category">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="category-header">
+            
+                            <div class="additonal-menu2">
+                                <p class="font-10">Health Daily</p>
+                                <p class="font-11 ps-5 mt-3">All Articles > </p>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="">
+            
+                                    <img src="assets/images/healthy1.png" class="img-fluid" />
+                                    <p class="font-18">Experiences<span style="color: #BDBDBD;"> | April 04, 2021 </span></p>
+                                    <p class="font-23">Tips to make your dish tasty</p>
+                                    <p class="font-24">Lacus, sed eget ut egestas et leo. Sed nam ipsum neque, molestie amet, et, in. Et elementum fermentum, egestas velit, mattis odio mauris cursus vitae. Non egestas nam mattis...</p>
+                                         
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="">
+            
+                                    <img src="assets/images/healthy2.png" class="img-fluid" />
+                                    <p class="font-18">Experiences<span style="color: #BDBDBD;"> | April 04, 2021 </span></p>
+                                    <p class="font-23">How to preserve food and organics</p>
+                                    <p class="font-24">Lacus, sed eget ut egestas et leo. Sed nam ipsum neque, molestie amet, et, in. Et elementum fermentum, egestas velit, mattis odio mauris cursus vitae. Non egestas nam mattis...</p>
+                                         
+                                </div>
+                            </div>
+            
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="advertise">
+                            <p class="font-10 text-center mt-4">Shop faster with Pescado App</p>
+                            <p class="font-25 text-center">Available on both iOS & Android</p>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <img src="assets/images/app-store.png" />
+
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <img src="assets/images/google-play.png" />
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-lg-6 col-md-12 p-2">
+                                    <img src="assets/images/food-delivary1.png" />
+
+                                </div>
+                                <div class="col-lg-6 col-md-12 p-2">
+                                    <img src="assets/images/food-delivary2.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                
+            
+
+            </div>
+
+
+
+            </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container">
+            <div class="row arranger p-3">
+                <div class="col-lg-2 col-md-6">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="assets/images/thunder-cloud-icon.png"/>
+                        </div>
+                        <div class="col-9">
+                            <p class="font-26">Free Shipping</p>
+                            <p class="font-27">For all orders over $200</p>
+                        </div>
+                    </div>
+                </div>
+    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/images/delivery-icon.png"/>
+                            </div>
+                            <div class="col-9">
+                                <p class="font-26">Free Shipping</p>
+                                <p class="font-27">For all orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/images/shield-icon.png"/>
+                            </div>
+                            <div class="col-9">
+                                <p class="font-26">Free Shipping</p>
+                                <p class="font-27">For all orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/images/board-icon.png"/>
+                            </div>
+                            <div class="col-9">
+                                <p class="font-26">Free Shipping</p>
+                                <p class="font-27">For all orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/images/tag-footer-icon.png"/>
+                            </div>
+                            <div class="col-9">
+                                <p class="font-26">Free Shipping</p>
+                                <p class="font-27">For all orders over $200</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="footer-final">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <p class="font-26">Pescado - Your online Seafood & Grocery</p>
+                        <p class="font-24">Lacus, sed eget ut egestas et leo. Sed nam ipsum neque, molestie amet, et, in. Et elementum fermentum, egestas velit, mattis odio mauris cursus vitae. Non egestas nam mattis...</p>
+                        <p class="font-24"><img src="assets/images/phone-icon.png"  class="me-3"/>Hotline 24/7</p>
+                        <p class="font-1">(+005) 123 456 7890</p>
+                        <p class="font-24"><img src="assets/images/house-icon.png"   class="me-3"/>1321 Homeoland Street Olanda, NYC</p>
+                         <p class="font-24"><img src="assets/images/mail-icon.png"  class="me-3" />support@pescado.com</p>
+
+                    </div>
+
+                    <div class="col-lg-2 col-md-12">
+                        <p class="font-26">Useful Links</p>
+                        <p class="font-24">About Us</p>
+                        <p class="font-24">Help Center</p>
+                        <p class="font-24">Career</p>
+                        <p class="font-24">Policy</p>
+                        <p class="font-24">Flash Sale</p>
+                        <p class="font-24">Official</p>
+                        <p class="font-24">Sitemap </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-12">
+                        <p class="font-26">Help Center</p>
+                        <p class="font-24">Payments</p>
+                        <p class="font-24">Shipping</p>
+                        <p class="font-24">Product Returns</p>
+                        <p class="font-24">FAQ</p>
+                        <p class="font-24">Checkout</p>
+                        <p class="font-24">Other Issues</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-12">
+                        <p class="font-26">Pescado Business</p>
+                        <p class="font-24">Sell On Pescado</p>
+                        <p class="font-24">Affiliate Program</p>
+                        <p class="font-24">Our Suppliers</p>
+                        <p class="font-24">Accessibility</p>
+                        <p class="font-24">Advertise With Us</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-12">
+                        <p class="font-26">Pescado Business</p>
+                        <p class="font-24">Register now to get updates on promotions and coupns Don’t worry! We not spam</p>
+                    </div>
+                </div>
             </div>
         </div>
-            
+
     </div>
+</div>
     
         
 
      <!-- Option 1: Bootstrap Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     <script>
+        let select =document.getElementById('select');
+        let list =document.getElementById('list');
+        let selectText =document.getElementById('selectText');
+        let options =document.getElementsByClassName('options');
+        select.onclick = function(){
+            list.classList.toggle("open");
+        }
+        for(option of options){
+            option.onclick = function(){
+                selectText.innerHTML = this.innerHTML;
+            }
+        }
+     </script>
 </body>
 </html>
