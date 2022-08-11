@@ -272,6 +272,9 @@ color: #FB532C;
 text-align: center;
 margin: 30px 20px 10px 20px;
 }
+.footer-final p {
+    margin: 5px auto !important;
+}
 .font-17{
 max-width: 225px;
 margin: 0px 25px 20px 25px;
@@ -670,6 +673,19 @@ padding: 20px 30px 0px 30px ;
 .footer p{
     margin: 0;
 }
+.font-28{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #828282;
+}
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
 @media (max-width: 992px){
     #num-support p{
         text-align: center;
@@ -798,6 +814,14 @@ padding: 20px 30px 0px 30px ;
     .arranger div{
         margin: 10px auto;
     }
+    .footer-final div {
+        
+        margin: 15px auto;
+    }
+    .footer-final p {
+        text-align: center;
+        margin: 5px auto;
+    }
     
 }
 
@@ -818,12 +842,5 @@ padding: 20px 30px 0px 30px ;
         margin: 10px auto;
         text-align: center;
     }
-    .footer-final div {
-        
-        margin: 15px auto;
-    }
-    .footer-final p {
-        text-align: center;
-        margin: 5px auto;
-    }
+
 }
