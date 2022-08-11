@@ -10,6 +10,9 @@ body{
     max-width: 100%;
     width: auto;
 }
+.container{
+    max-width: 1200px;
+}
 .searcher{
     height: 54px;
     max-width: 702px;
@@ -23,7 +26,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 250px;
     padding: 25px 20px;
     cursor: pointer;
     position: relative;
@@ -400,13 +403,14 @@ box-shadow: -4px 25px 40px rgba(0, 0, 0, 0.05);
     justify-content: space-around;
 }
 .browser-category{
-    margin-top: 25px;
+    margin-top: 50px;
     width: auto;
     max-width: 100%;
 
 }
 .expire-countdown{
     max-width: 228px;
+    min-width: 175px;
     width: 90%;
     height: 44px;
     background: #FB532C;
@@ -459,7 +463,19 @@ height: 48px;
 width: 100%;
 background: #F38125;
 border-radius: 5px;
-margin: 30px 25px;
+margin: 30px 0;
+}
+
+.top-saver-bar .register-now{
+    max-width: 259px;
+    height: 48px;
+    width: 70%;
+    background: #F38125;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+.register .register-now{
+    margin: 30px auto;
 }
 .top-saver-bar{
     padding-top: 40px;
@@ -473,17 +489,18 @@ margin: 30px 25px;
 
 .number span {cursor:pointer; }
 .number{
-    width: 77px;
+    width: 70px;
 height: 36px;
 border: 1px solid #BDBDBD;
 
 }
 .minus, .plus{
-    width:20px;
+    width:10px;
     height:20px;
 vertical-align: middle;
 text-align: center;
-padding: 0 5px;font-family: 'General Sans';
+padding: 0 5px;
+font-family: 'General Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -498,7 +515,7 @@ color: #333333;
 .number input{
     border: none !important;
     height:34px;
-width: 30px;
+width: 26px;
 text-align: center;
 font-size: 26px;
 vertical-align: middle;
@@ -519,7 +536,7 @@ vertical-align: middle;
     justify-content: flex-start;
 }
 .hoveringItem{
-    display: none;
+    display: block;
 }
 .top-saver-bar:hover{
     padding: 20px 30px;
@@ -639,14 +656,20 @@ padding: 20px 30px 0px 30px ;
     min-height: 427px;
     background-color: #FFFFFF;
 }
-
-.category-back2 .best-seller-bar:hover{
-    height: auto;
-    max-height: 527px;
+.category-back2 .best-seller-bar{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.category-back2 .best-seller-bar:hover img:nth-child(1){
+    
     background-color: #FFFFFF;
     padding-top: -20px;
 }
 
+.footer p{
+    margin: 0;
+}
 @media (max-width: 992px){
     #num-support p{
         text-align: center;
@@ -690,8 +713,7 @@ padding: 20px 30px 0px 30px ;
         flex-direction: column;
     }
     .category-bar{
-        margin: auto;
-        padding: 10px 0;
+        margin: 10px auto;
     }
     #lineBreaker1{
         content: "\a";
@@ -706,11 +728,17 @@ padding: 20px 30px 0px 30px ;
         content: "\a";
         white-space: pre;
     }
+    #featureItemSmallScreen{
+        text-align: center;
+    }
     #featureItemSmallScreen div{
-        margin: auto;
         padding: 20px 0;
     }
     .top-saver-bar{
+        margin: auto;
+        text-align: center;
+    }
+    .best-seller-bar{
         margin: auto;
         text-align: center;
     }
@@ -720,6 +748,44 @@ padding: 20px 30px 0px 30px ;
     }
     .additonal-menu1 {
         flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
     }
-    
+    .fish-banner{
+        margin: 10px auto;
+    }
+    .lemon-banner{
+        margin: 10px auto;
+    }
+    #top-saver-header-small{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    #top-saver-nav-button{
+        margin: 10px auto;
+    }
+    .order-counter{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .number{
+        margin: 0 auto;
+
+    }
+    .fav-item{
+        left:80%;
+    }
+    .register-now{
+        margin: 30px auto;
+    }
+    .register{
+        margin: 0 auto;
+    }
+    .top-saver-bar .register-now{margin: 30px auto;}
+    .mockup-bar{
+        max-height: 100%;
+        height: auto;
+    }
 }
